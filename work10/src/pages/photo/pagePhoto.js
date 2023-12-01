@@ -1,7 +1,9 @@
-function pagePhoto(){
+function pagePhoto() {
 
     return (
-
+        <>
+фтоогалерея
+        </>
     )
 }
 

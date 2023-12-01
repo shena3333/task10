@@ -1,7 +1,9 @@
-function pageContacts(){
+function pageContacts() {
 
     return (
-
+        <>
+контакты
+        </>
     )
 }
 

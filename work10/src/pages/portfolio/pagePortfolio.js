@@ -1,7 +1,9 @@
-function pagePortfolio(){
+function pagePortfolio() {
 
     return (
-
+        <>
+портфолио
+        </>
     )
 }
 
