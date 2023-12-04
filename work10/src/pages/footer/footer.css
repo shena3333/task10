@@ -1,0 +1,11 @@
+.footer {
+    background-color: rgb(226, 147, 147);
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}

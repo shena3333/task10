@@ -3,13 +3,17 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-       
-      </header>
-    </div>
+    <h1>Добро пожаловать на сайт начинающего frontend-разработчика.</h1>
+    <p>Меня зовут Кондрикова Елена.</p>
+    <p>Являюсь выпускником курса "Веб-дизайн и разработка сайтов" и освоила:</p>
+    <ul>
+      <li>верстка страницы на HTML и CSS;</li>
+      <li>разработка страницы с помощью JS;</li>
+      <li>создание отзывчивого дизана страницы; </li>
+      <li>создание сайта на основе CMS;</li>
+      <li>создание сайта c помощью фреймворка React;</li>
+      <li>контроль версий при помощи github.com;</li>
+    </ul></div>
   );
 }
 
