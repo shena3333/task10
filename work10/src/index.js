@@ -41,7 +41,7 @@ root.render(
   <React.StrictMode>
     <div><Header /> 
     <RouterProvider router={router} />
-    {/* <Footer /> */}
+    <Footer />
     </div>
   </React.StrictMode>
 );
