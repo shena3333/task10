@@ -5,8 +5,7 @@ function Footer() {
     return (
 
         <><div className='footer'>
-            <p>Контакты</p>
-            <div className='footerContainer'>
+                   <div className='footerContainer'>
                 <div>+7 911-958-63-06</div>
                 <span>shena3333@mail.ru</span>
                 <span>г.Санкт-Петербург</span>

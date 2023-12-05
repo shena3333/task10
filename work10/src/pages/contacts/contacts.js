@@ -7,18 +7,26 @@ function Contacts() {
 
     return (
         <>
-        <div>
-            
-                    </div>
-        <div className='contact-container'>
-            <form className="form">
-                <TextField classes="input-form" id="outlined-basic" label="ФИО" variant="outlined" />
-                <TextField className="input-form" id="outlined-basic" label="E-mail" variant="outlined" />
-                <TextField className="input-form" id="outlined-basic" label="Сообщение" variant="outlined" />
-                <Button className='button-form' variant="contained">Contained</Button>
-            </form>
+            <div className='contact-container'>
+<div className='container-for-contacts'>
+    <div className='title'><h1>Контакты</h1></div>
+    <div className='grid-contacts'>
+        <p className='grid-element'>Телефон</p>
+        <p className='grid-element'>E-mail</p>
+        <p className='grid-element'>+7(911)958-63-06</p>
+        <p className='grid-element'>shena3333@mail.ru</p>
+    </div>
+</div>
+                <form className="form">
+                    <p className='text-contacts'>Остались вопросы, напишите мне</p>
+                    <TextField classes="input-form" id="outlined-basic" label="ФИО" variant="outlined" />
+                    <TextField className="input-form" id="outlined-basic" label="E-mail" variant="outlined" />
+                    <TextField className="input-form" id="outlined-basic" label="Сообщение" variant="outlined" />
+                    <Button className='button-form' variant="contained">Contained</Button>
+                </form>
 
-        </div>
+            </div>
+
         </>
     )
 }
