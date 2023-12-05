@@ -13,6 +13,9 @@ function Portfolio() {
                 <li>
                     <a href="https://github.com/shena3333/task10">Второй пример</a>
                 </li>
+                <li>
+                    <a href="https://github.com/shena3333/calc">Третий пример</a>
+                </li>
             </ul>
 
         </div>

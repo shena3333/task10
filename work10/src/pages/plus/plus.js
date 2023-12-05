@@ -6,7 +6,10 @@ function Plus() {
     return (
         <>
             <div className='container-plus'>
-                дополнительная страница
+            <p className='dsongentom desetungavon'>С наступающим новым 2024 годом Дракона!</p>
+            </div>
+            <div class="fixed-snow">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
             </div>
         </>
 
