@@ -23,14 +23,28 @@ function Photo() {
                 </div>
                 {/* <div><img className='main-foto' src={foto1} alt="main-image" /></div> */}
                 <div className="foto-box">
-                    <img class="foto foto1" alt='icon' src={foto1} />
-                    <img class="foto foto2" alt='icon' src={foto2} />
-                    <img class="foto foto3" alt='icon' src={foto3} />
-                    <img class="foto foto4" alt='icon' src={foto4} />
+                    <img className="foto foto1" alt='icon' src={foto1} />
+                    <img className="foto foto2" alt='icon' src={foto2} />
+                    <img className="foto foto3" alt='icon' src={foto3} />
+                    <img className="foto foto4" alt='icon' src={foto4} />
                 </div>
             </div>
         </>
     )
 }
+
+// function PhotoFunc() {
+
+//     const mainFoto = document.querySelector('.main-foto');
+//     document.addEventListener('mouseover', function (e) {
+//         if (e.target.closest('.foto')) {
+//             mainFoto.src = e.target.src;
+//         }
+//     });
+
+   
+// }
+
+// PhotoFunc()
 
 export default Photo;

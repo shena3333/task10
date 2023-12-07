@@ -8,7 +8,7 @@ function Plus() {
             <div className='container-plus'>
             <p className='dsongentom desetungavon'>С наступающим новым 2024 годом Дракона!</p>
             </div>
-            <div class="fixed-snow">
+            <div className="fixed-snow">
                 <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
             </div>
         </>

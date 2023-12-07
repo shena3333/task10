@@ -9,7 +9,7 @@ function App() {
         </div>
         <section className='content'>
 
-          <div class="text-abou-me">
+          <div className="text-abou-me">
             <p>Меня зовут Кондрикова Елена.</p>
             <p>Являюсь выпускником курса</p>
             <p>"Веб-дизайн и разработка сайтов".</p>
