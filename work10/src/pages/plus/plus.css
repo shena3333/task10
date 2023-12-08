@@ -1,45 +1,55 @@
-.dsongentom{
+.dsongentom {
     position: relative;
-    top: 43%;  
+    top: 43%;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 2px solid rgba(255, 255, 255, .75);
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);  
+    transform: translateY(-50%);
     color: white;
     font-weight: 800;
     font-size: 40px;
     -webkit-text-stroke: 1px red;
     background: rgba(0, 0, 0, 0.7)
-  }
-  
-  .desetungavon{
+}
+
+.desetungavon {
     animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms steps(44) infinite normal;
-  }
-  @keyframes typewriter{
-    from{width: 0;}
-    to{width: 24em;}
-  }
-  @keyframes blinkTextCursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
-  }
-  
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
 
 .container-plus {
     text-align: center;
     background-image: url('../../background.jpg');
     width: 100%;
-    height: 94vh;
+    height: 84.5vh;
     background-size: cover;
     position: relative;
 }
 
 .fixed-snow span::after {
     position: fixed;
-    /* color:#BFE2FF; */
     color: white;
     font-weight: bold;
     pointer-events: none;

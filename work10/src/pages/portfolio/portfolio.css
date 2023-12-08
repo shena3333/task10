@@ -2,7 +2,7 @@
     text-align: center;
     background-image: url('../../background.jpg');
     width: 100%;
-    height: 94vh;
+    height: 84.5vh;
     background-size: cover;
     position: relative;
 }
@@ -19,11 +19,13 @@
     color: black;
     transition: 2s;
 }
-.content-container:hover{
+
+.content-container:hover {
     box-shadow: 10px 10px 30px blue;
     transform: scale(1.2);
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;

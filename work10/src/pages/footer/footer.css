@@ -1,6 +1,6 @@
 .footer {
-    background-color:black;
-    margin-block-start:0;
+    background-color: black;
+    margin-block-start: 0;
 }
 
 .footerContainer {
@@ -11,4 +11,8 @@
     color: white;
     font-size: 18px;
     font-weight: 600;
+}
+
+.element-contacts {
+    margin: 10px;
 }

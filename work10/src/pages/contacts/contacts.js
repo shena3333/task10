@@ -8,7 +8,7 @@ function Contacts() {
     return (
         <>
             <div className='contact-container'>
-                <h1 className='title'>Контакты</h1>
+                <div className='background-title'><h1 className='title'>Контакты</h1></div>
                 <div className='container-for-contacts'>
                     <form className="form">
                         <p className='text-contacts'>Остались вопросы, напишите мне</p>

@@ -25,10 +25,14 @@ function Portfolio() {
                             <a href="https://github.com/shena3333/project3Kondrikova">HTML,CSS</a>
                         </li>
                         <li>
-                            <a href="https://github.com/shena3333/task10">React</a>
+                            <a href="https://github.com/shena3333/calc">JS</a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/shena3333/task7">VUE.js</a>
                         </li>
                         <li>
-                            <a href="https://github.com/shena3333/calc">JS</a>
+                            <a href="https://github.com/shena3333/task10">React</a>
                         </li>
                     </ul>
                 </div>
