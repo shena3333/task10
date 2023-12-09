@@ -6,6 +6,7 @@
         background-size: cover;
         position: relative;
         margin-block-start: 0px;
+        align-items: center;
 }
 
 .gallery {
@@ -25,36 +26,17 @@
         display: flex;
         justify-content: center;
         padding: 20px;
+        position: absolute;
+        bottom: 5px;
 }
 
 .foto {
-        transition: 2s;
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         margin-right: 10px;
 }
 
-.foto1:hover {
-        width: 270px;
-        height: 550px;
-}
-
-.foto2:hover {
-        width: 600px;
-        height: 350px;
-}
-
-.foto3:hover {
-        width: 600px;
-        height: 350px;
-}
-
-.foto4:hover {
-        width: 350px;
-        height: 500px;
-}
-
-.foto5:hover {
-        width: 600px;
-        height: 350px;
+.main-foto {
+        max-width: 400px;
+        max-height: 400px;
 }
